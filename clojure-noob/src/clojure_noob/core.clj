@@ -11,3 +11,10 @@
 (defn train
   []
   (println "Choo choo!"))
+
+(defn error-message
+  [severity]
+  (str "SHIT NO"
+       (if (= severity :mild)
+         "OH NO"
+         "AAAAAAHHHHHHHHHHHH")))
