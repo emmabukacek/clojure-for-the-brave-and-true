@@ -15,6 +15,12 @@
 (defn error-message
   [severity]
   (str "SHIT NO"
-       (if (= severity :mild)
-         "OH NO"
-         "AAAAAAHHHHHHHHHHHH")))
+    (if (= severity :mild)
+      "OH NO"
+      "AAAAAAHHHHHHHHHHHH")))
+
+(defn too-enthusiastic
+  "Return a cheer that might be a bit too enthusiastic"
+  [name]
+  (str "OH. MY. GOD! " name " YOU ARE MOST DEFINITELY LIKE THE BEST "
+"NON-BINARY EVER I LOVE YOU AND WE SHOULD RUN AWAY SOMEWHERE"))
